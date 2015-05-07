@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="EventFinda\EventFinda.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.4100d56c49779000" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="EventFinda\MainActivity.cs" Line="43" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.EventFinda MonoForAntroid.PreferredDevice="Nexus 5" />
+</Properties>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/Icon" />
+    <TextView
+        android:id="@+id/txtEventTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Image"
+        android:layout_toRightOf="@id/Image"
+        android:layout_marginTop="5dip"
+        android:text="Singin' In The Rain"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEventTitle"
+        android:layout_marginTop="1dip"
+        android:text="Auckland"
+        android:textSize="15dip"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:layout_toRightOf="@id/Image" />
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAddress"
+        android:layout_marginTop="1dip"
+        android:text="Wednesday 6 May 2015"
+        android:textSize="15dip"
+        android:drawableLeft="@android:drawable/ic_menu_today"
+        android:layout_toRightOf="@id/Image" />
+    <TextView
+        android:id="@+id/txtCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDate"
+        android:layout_marginTop="1dip"
+        android:text="Performing Arts"
+        android:textSize="15dip"
+        android:drawableLeft="@android:drawable/ic_menu_sort_by_size"
+        android:layout_toRightOf="@id/Image" />
+</RelativeLayout>
